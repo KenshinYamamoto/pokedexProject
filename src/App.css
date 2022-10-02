@@ -36,3 +36,7 @@
   transform: translateY(5px);
   box-shadow: none;
 }
+
+.loading {
+  text-align: center;
+}

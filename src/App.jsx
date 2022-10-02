@@ -65,7 +65,7 @@ export const App = () => {
     <>
       <Navbar />
         {loading ?
-        <h1>NowLoading...</h1> : 
+        <h1 className='loading'>NowLoading...</h1> : 
         <>
           <div className='pokemonCardContainer'>
             {pokemonData.map((pokemon, index) => {
